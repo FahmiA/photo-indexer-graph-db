@@ -1,0 +1,25 @@
+{
+  "name": "photo-indexer-graph-db",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node $npm_package_main",
+    "build": "tsc",
+    "build-watch": "tsc --watch"
+  },
+  "dependencies": {
+    "dms2dec": "^1.1.0",
+    "exif-reader": "^1.0.3",
+    "geojson-geometries-lookup": "^0.3.1",
+    "gremlin": "^3.4.4",
+    "source-map-support": "^0.5.16",
+    "time-series-clustering": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/gremlin": "^3.4.3",
+    "@types/node": "10.x",
+    "typescript": "^3.7.5"
+  }
+}

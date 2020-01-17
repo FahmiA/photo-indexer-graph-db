@@ -1,0 +1,9 @@
+# Node, NPM, and Yarn
+node_modules
+yarn-error.log
+
+# Build
+build
+
+# VSCode
+.vscode
