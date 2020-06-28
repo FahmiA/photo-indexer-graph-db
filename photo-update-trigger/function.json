@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "blob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "photo/{name}",
+      "connection": "StorageConnection"
+    }
+  ],
+  "scriptFile": "../build/photo-update-trigger/index.js"
+}

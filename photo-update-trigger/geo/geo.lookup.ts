@@ -1,4 +1,4 @@
-import GeoJsonGeometriesLookup from 'geojson-geometries-lookup';
+import * as GeoJsonGeometriesLookup from 'geojson-geometries-lookup';
 
 export interface Coord {
     lat: number;
